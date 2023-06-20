@@ -1,0 +1,158 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Zeph's Company Survey Form</title>
+    <link rel="stylesheet" href="styles.css" /
+  </head>
+    <body>
+    <h1 id="title">Zeph's Company Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us fill up this form!</p>
+    <form id="survey-form">
+      <fieldset>
+        <label 
+          id ="name-label" 
+          for="name-label"
+        > Name: 
+          <input 
+            id="name" 
+            name="name-label" 
+            type="text" 
+            placeholder="Enter your name" 
+            required
+          />
+        </label>
+        <p>
+        </p>
+        <label 
+          id="email-label" 
+          for="email-label"
+        > Email:
+          <input 
+          id="email"
+          name="email-label" 
+          type="email"  
+          placeholder="Enter your email" 
+          required
+          />
+        </label>
+        <p>
+        </p>
+        <label 
+          id="number-label" 
+          for="number-label"
+        > Age:
+          <input 
+            id="number" 
+            name="age" 
+            type="number" 
+            placeholder="Age" 
+            min="1" 
+            max="120" 
+            required
+          />
+        </label>
+      </fieldset>
+      <fieldset>
+        <p>Which option best describes your current role?</p>  
+        <label>
+          <select 
+          id="dropdown" 
+          name="role" 
+          required
+          >
+            <option disabled selected value>Select current role</option>
+            <option value="student">Student</option>
+            <option value="fullJob">Full Time Job</option>
+            <option value="partJob">Part Time Job</option>
+            <option value="preferNo">Prefer not to say</option>
+            <option value="other">Other</option>
+          </select>
+        </label>
+        <label>
+        <p>Would you recommend "us" to a friend/family?</p>
+        <label>
+          <input 
+            name="recommend" 
+            value="yes" 
+            type="radio"
+            checked 
+          />Yes
+          <input 
+            name="recommend" 
+            value="no" 
+            type="radio"
+            checked
+          />No 
+        </label>
+        <label>
+          <p>How did you hear about "us"?</p>
+          <input 
+            id="facebook" 
+            type="checkbox"
+            name="facebook" 
+            value="facebook"
+            required  
+          /> Facebook
+          <input 
+            id="google" 
+            type="checkbox"
+            name="google" 
+            value="google"
+            required  
+          /> Google
+          <input 
+            id="friendFamily" 
+            type="checkbox"
+            name="friendFamily" 
+            value="friendFamily"
+            required  
+          /> Friend/Family
+          <input 
+            id="ourStaff" 
+            type="checkbox"
+            name="ourStaff" 
+            value="ourStaff"
+            required  
+          /> Our Staff
+        <p>Any comments or suggestions?</p>
+        <label for="comment">
+          <textarea 
+            id="comment" 
+            name="comment" 
+            rows="5" 
+            cols="100" 
+          >
+          </textarea>
+      </fieldset>
+    </body>
+        <button type="submit" id="submit" value="submit">
+            Submit
+        </button>
+    </form>
+</html> 
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+        background-color:black;
+        color:white;       
+}
+
+input[type="submit"] {
+        display: block;
+        background-color:black;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+** end of undefined **
+
