@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+    color: white;       
+}
+
+input[type=submit] {
+    display: block;
+    background-color: black;
+}
+
+fieldset {
+border: none;
+padding: 2rem 0;
+border-bottom: 3px solid #3b3b4f;
+}
